@@ -134,3 +134,11 @@ console.log(cutString("ciao"))
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const giveMeRandom = function (n1) {
+  let aCaso = []
+  for (let i = 0; i < n1; i++) {
+    aCaso.push(Math.floor(Math.random() * 10))
+  }
+  return aCaso
+}
+console.log(giveMeRandom(33))
